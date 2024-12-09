@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_fade_exit.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_close_enter.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_close_exit.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_fade_enter.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_fade_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_open_exit.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\animator\\fragment_open_enter.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\e7d02aa0b699fd1c19c5dcf9c595d968\\transformed\\fragment-1.7.1\\res\\animator\\fragment_open_enter.xml"
+    }
+]

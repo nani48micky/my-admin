@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\ime_secondary_split_test_activity.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\ime_base_split_test_activity.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\layout\\notification_template_part_chronometer.xml"
+    }
+]

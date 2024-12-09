@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD642856-5DAC-3B1D-9FB4-8A47F489BBF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>flutter_assemble</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\CMakeFiles\0c84c4525b8fd2ec35742a26f80d9eeb\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_export.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_TARGET=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_export.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_TARGET=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_export.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_windows.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral PROJECT_DIR=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup FLUTTER_TARGET=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\CMakeFiles\dd58267f1dbb6d82ea4c7eea53351de6\flutter_assemble.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_export.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_windows.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows -BC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64 --check-stamp-file C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows -BC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64 --check-stamp-file C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/windows -BC:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64 --check-stamp-file C:/Users/nani/OneDrive/Desktop/myapp/client_side/admin_panal_startup/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\flutter\CMakeFiles\flutter_assemble">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{7FCA5240-4641-3545-BC1E-8E8970A1CCC4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

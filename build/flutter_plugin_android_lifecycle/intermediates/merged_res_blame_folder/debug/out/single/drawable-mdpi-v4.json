@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_answer_video_low.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_decline_low.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_decline_low.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_answer.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_decline.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_decline.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_answer_video.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_answer_video.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\nani\\OneDrive\\Desktop\\myapp\\client_side\\admin_panal_startup\\build\\flutter_plugin_android_lifecycle\\intermediates\\merged_res\\debug\\drawable-mdpi-v4\\ic_call_answer_low.png",
+        "source": "C:\\Users\\nani\\.gradle\\caches\\transforms-3\\1be31a6ccd2808c0b4c576ffb7793bc5\\transformed\\core-1.13.1\\res\\drawable-mdpi-v4\\ic_call_answer_low.png"
+    }
+]

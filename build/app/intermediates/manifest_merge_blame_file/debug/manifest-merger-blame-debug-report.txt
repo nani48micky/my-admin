@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.admin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.admin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.admin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:3:5-30:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.1] C:\Users\nani\.gradle\caches\transforms-3\1be31a6ccd2808c0b4c576ffb7793bc5\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:5:9-43
+26        android:label="admin" >
+26-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:4:9-30
+27        <activity
+27-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:6:9-26:20
+28            android:name="com.example.admin.MainActivity"
+28-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:7:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:10:13-163
+30            android:exported="true"
+30-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:13:13-36
+31            android:hardwareAccelerated="true"
+31-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:11:13-47
+32            android:launchMode="singleTop"
+32-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:8:13-43
+33            android:theme="@style/LaunchTheme"
+33-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:9:13-47
+34            android:windowSoftInputMode="adjustResize" > <!-- Added android:exported -->
+34-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:12:13-55
+35            <meta-data
+35-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:14:13-17:19
+36                android:name="io.flutter.embedding.android.NormalTheme"
+36-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:15:17-72
+37                android:resource="@style/NormalTheme" />
+37-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:16:17-54
+38            <meta-data
+38-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:18:13-21:19
+39                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+39-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:19:17-81
+40                android:resource="@drawable/launch_background" />
+40-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:20:17-63
+41
+42            <intent-filter>
+42-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:22:13-25:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:23:17-68
+43-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:24:17-76
+45-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:24:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:27:9-29:33
+50            android:name="flutterEmbedding"
+50-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:28:13-44
+51            android:value="2" />
+51-->C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\android\app\src\main\AndroidManifest.xml:29:13-30
+52
+53        <provider
+53-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+54            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+54-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+55            android:authorities="com.example.admin.flutter.image_provider"
+55-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+56            android:exported="false"
+56-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+57            android:grantUriPermissions="true" >
+57-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+58            <meta-data
+58-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+60                android:resource="@xml/flutter_image_picker_file_paths" />
+60-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+61        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+62        <service
+62-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+63            android:name="com.google.android.gms.metadata.ModuleDependencies"
+63-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+64            android:enabled="false"
+64-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+65            android:exported="false" >
+65-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+66            <intent-filter>
+66-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+67                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+67-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+67-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+68            </intent-filter>
+69
+70            <meta-data
+70-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+71                android:name="photopicker_activity:0:required"
+71-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+72                android:value="" />
+72-->[:image_picker_android] C:\Users\nani\OneDrive\Desktop\myapp\client_side\admin_panal_startup\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+73        </service>
+74
+75        <uses-library
+75-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+76            android:name="androidx.window.extensions"
+76-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+77            android:required="false" />
+77-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+78        <uses-library
+78-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+79            android:name="androidx.window.sidecar"
+79-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+80            android:required="false" />
+80-->[androidx.window:window:1.2.0] C:\Users\nani\.gradle\caches\transforms-3\22a33c893762a2c6a96e60cdd2eb4c8a\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+81
+82        <provider
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.admin.androidx-startup"
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\nani\.gradle\caches\transforms-3\713fd6b844b631fbcbb8772592a53475\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nani\.gradle\caches\transforms-3\ce9ed09cc0342488edd309514770481e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

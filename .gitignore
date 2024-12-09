@@ -1,0 +1,63 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+**/generated_plugin_registrant.dart
+
+# IntelliJ/VS Code specific
+.idea/
+.vscode/
+*.iml
+
+# Android related
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/key.properties
+
+# iOS/macOS related
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter.podspec
+
+# Windows related
+windows/flutter/ephemeral/
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Web related
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.packages
+
+# Firebase related
+firebase_app_id_file.json
+
+# Miscellaneous
+*.log
+*.lock
+*.pyc
+.DS_Store
+.env
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+*.rej
+*.class
+*.db
+*.sql
+*.sqlite
