@@ -12,6 +12,9 @@ import 'components/product_summery_section.dart';
 class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isSmallScreen = screenWidth < 800; // Adjust breakpoint as needed
+
     return SafeArea(
       child: SingleChildScrollView(
         primary: false,
@@ -20,62 +23,75 @@ class DashboardScreen extends StatelessWidget {
           children: [
             DashBoardHeader(),
             Gap(defaultPadding),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(
-                  flex: 5,
-                  child: Column(
+            isSmallScreen
+                ? Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Expanded(
-                            child: Text(
-                              "My Products",
-                              style: Theme.of(context).textTheme.titleMedium,
-                            ),
-                          ),
-                          ElevatedButton.icon(
-                            style: TextButton.styleFrom(
-                              padding: EdgeInsets.symmetric(
-                                horizontal: defaultPadding * 1.5,
-                                vertical: defaultPadding,
-                              ),
-                            ),
-                            onPressed: () {
-                              showAddProductForm(context, null);
-                            },
-                            icon: Icon(Icons.add),
-                            label: Text("Add New"),
-                          ),
-                          Gap(20),
-                          IconButton(
-                              onPressed: () {
-                                //TODO: should complete call getAllProduct
-                                context.dataProvider
-                                    .getAllProduct(showSnack: true);
-                              },
-                              icon: Icon(Icons.refresh)),
-                        ],
+                      buildProductsSection(context),
+                      Gap(defaultPadding),
+                      OrderDetailsSection(),
+                    ],
+                  )
+                : Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        flex: 5,
+                        child: buildProductsSection(context),
                       ),
-                      Gap(defaultPadding),
-                      ProductSummerySection(),
-                      Gap(defaultPadding),
-                      ProductListSection(),
+                      SizedBox(width: defaultPadding),
+                      Expanded(
+                        flex: 2,
+                        child: OrderDetailsSection(),
+                      ),
                     ],
                   ),
-                ),
-                SizedBox(width: defaultPadding),
-                Expanded(
-                  flex: 2,
-                  child: OrderDetailsSection(),
-                ),
-              ],
-            )
           ],
         ),
       ),
+    );
+  }
+
+  Widget buildProductsSection(BuildContext context) {
+    return Column(
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Expanded(
+              child: Text(
+                "My Products",
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ),
+            ElevatedButton.icon(
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.symmetric(
+                  horizontal: defaultPadding * 1.5,
+                  vertical: defaultPadding,
+                ),
+              ),
+              onPressed: () {
+                showAddProductForm(context, null);
+              },
+              icon: Icon(Icons.add),
+              label: Text("Add New"),
+            ),
+            Gap(20),
+            IconButton(
+              onPressed: () {
+                // TODO: should complete call getAllProduct
+                context.dataProvider.getAllProduct(showSnack: true);
+              },
+              icon: Icon(Icons.refresh),
+            ),
+          ],
+        ),
+        Gap(defaultPadding),
+        ProductSummerySection(),
+        Gap(defaultPadding),
+        ProductListSection(),
+      ],
     );
   }
 }

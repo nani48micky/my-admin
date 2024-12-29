@@ -6,7 +6,7 @@ class LoginProvider extends ChangeNotifier {
   bool isLoggedIn = false;
 
   void login(String inputUsername, String inputPassword) {
-    if (inputUsername == 'nani50011' && inputPassword == '12345') {
+    if (inputUsername == '1' && inputPassword == '1') {
       isLoggedIn = true;
     } else {
       isLoggedIn = false;
