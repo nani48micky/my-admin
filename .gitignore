@@ -4,6 +4,7 @@
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
+.github/
 build/
 **/generated_plugin_registrant.dart
 
