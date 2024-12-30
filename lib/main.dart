@@ -1,5 +1,3 @@
-import 'package:admin/screens/login/LoginProvider.dart';
-import 'package:admin/screens/login/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -47,8 +45,6 @@ void main() {
           create: (context) => OrderProvider(context.dataProvider)),
       ChangeNotifierProvider(
           create: (context) => NotificationProvider(context.dataProvider)),
-      ChangeNotifierProvider(
-          create: (context) => LoginProvider()), // Add the LoginProvider
     ],
     child: MyApp(),
   ));
@@ -66,12 +62,11 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
-      initialRoute: '/login', // Set the initial route to login
+      initialRoute: '/', // Set the initial route to the main screen
       unknownRoute: GetPage(name: '/notFound', page: () => MainScreen()),
       defaultTransition: Transition.cupertino,
       getPages: [
-        GetPage(
-            name: '/login', page: () => LoginScreen()), // Login screen route
+        GetPage(name: '/', page: () => MainScreen()), // Main screen as default
         ...AppPages.routes,
       ],
     );

@@ -13,6 +13,9 @@ import 'package:flutter/material.dart';
 import '../../sub_category/sub_category_screen.dart';
 
 class MainScreenProvider extends ChangeNotifier {
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
+  GlobalKey<ScaffoldState> get scaffoldKey => _scaffoldKey;
   Widget selectedScreen = DashboardScreen();
 
   navigateToScreen(String screenName) {
@@ -51,5 +54,9 @@ class MainScreenProvider extends ChangeNotifier {
         selectedScreen = DashboardScreen();
     }
     notifyListeners();
+  }
+
+  void openDrawer() {
+    _scaffoldKey.currentState?.openDrawer();
   }
 }
